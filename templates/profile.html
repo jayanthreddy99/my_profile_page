@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My profile</title>
+	<style>
+		#landing-page
+		{
+			background:url('{% static "images/jay5.jpg" %}') no-repeat 0px 0px scroll;
+			background-size: cover;
+			height: 100vh;
+		}
+	</style>
+    <link rel="stylesheet" href="{% static 'css/c1.css'%}">
+	<link rel="stylesheet" type="text/css" href="D:\WEB\fontawesome\fa\css\all.css">
+</head>
+<body>
+	<header>
+		<h1><span style="color:orange;">Jayanth</span> Reddy</h1>
+		<div id="nav-links">
+			<a href=""><i class="fa fa-home"></i>Home</a>
+			<a href=""><i class="fa fa-newspaper"></i>Updates</a>
+			<a href=""><i class="fa fa-graduation-cap"></i>Courses</a>
+			<a href=""><i class="fa fa-id-badge"></i>About</a>
+			<a href=""><i class="fa fa-phone"></i>Contact us</a>
+		</div>
+	</header>
+		<div id="landing-page">
+			<div class="wrapper">
+				<h1>Welcome To <span style="color:orange;">My profile</span></h1>
+				<p>A spunky, chubby teenager with gelled hair shot to fame after leading India to glory in the Under-19 World Cup at Kuala Lumpur in early 2008. In an Indian team filled with saint-like icons worthy of their own hagiographies, Virat Kohli, with his most un-Indian, 'bad-boy' intensity, would clearly be an outcast</p>
+			</div>
+		</div>
+</body>
+</html>
